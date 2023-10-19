@@ -1,53 +1,42 @@
-.tarolo{
-max-width: 900px;
-width: 80%;
-margin: 0 auto;
+.tarolo {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
 }
-.fejlec{
-background-image:url(images/hero.jpg) ;
-height:100vh;
-background-size: cover;
+.fejlec {
+  background-image: url(images/hero.jpg);
+  height: 100vh;
+  background-size: cover;
 }
-.menu{
-grid-template-columns: 1fr 1fr 1fr 1fr;
-color: white;
+.menu {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color:white;
+  border-radius: 22px;
+  padding: 20px;
+  background-color: orange;
 }
-h1{
-color: white;
+h1 {
+  text-align: center;
+  color: white;
 }
-p{
-color: white;
+p {
+  color: white;
+  text-align: center;
 }
-.keresemacicam{
-    color: white;
+.keresemacicam {
+  color: white;
+  background-color: orange;
+  border-radius: 22px;
+  height: 22px;
+  text-align: center;
+  max-width: 80%;
 }
-.litag1{
-border-radius: 25px;
-padding: 15px;
-display: grid;
-background-color: orangered;
+.masodikoldal{
+  background-color: gray;
 }
-.litag1{
-    border-radius: 25px;
-    padding: 15px;
-    display: grid;
-    background-color: orangered;
+.cicak{
+  background-color: orange;
+  border-radius: 22px;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr;
 }
-.litag2{
-    border-radius: 25px;
-    padding: 15px;
-    display: grid;
-    background-color: orangered;
-}
-.litag3{
-    border-radius: 25px;
-    padding: 15px;
-    display: grid;
-    background-color: orangered;
-}
-.litag4{
-    border-radius: 25px;
-    padding: 15px;
-    display: grid;
-    background-color: orangered;
-    }
