@@ -8,7 +8,8 @@
   height: 100vh;
   background-size: cover;
 }
-.menu {
+.menu ul {
+  display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   color:white;
   border-radius: 22px;
@@ -31,12 +32,10 @@ p {
   text-align: center;
   max-width: 80%;
 }
-.masodikoldal{
-  background-color: gray;
-}
-.cicak{
-  background-color: orange;
+.masodikoldal ul{
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  background-color:orange;
   border-radius: 22px;
   padding: 20px;
-  grid-template-columns: 1fr 1fr;
 }
